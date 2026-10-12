@@ -21,10 +21,20 @@ function AppContent() {
     </div>
   );
 }
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <AppContent />
     </BrowserRouter>
   );
 }
+
+export default App;
+
+//category boyicha filter
+//transictions da yana parnasetlar
+//kunlar ketma ketligi
+//kunni tanlash
+//supa base ulash
+//py chard(dumaloq) sihlatgan foizlarini hisoblab turuvchi
+//income tanlanganda type ozgarishi kerak
